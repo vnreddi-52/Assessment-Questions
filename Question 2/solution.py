@@ -1,6 +1,9 @@
 string = input()
 res=""
 
+# res=sorted(string)
+# print(res)
+
 for i in string:
     if i =="#":
         res+=i
