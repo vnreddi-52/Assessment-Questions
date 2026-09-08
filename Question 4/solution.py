@@ -13,15 +13,18 @@ i=0
 # except ZeroDivisionError:
 #     print("Error")
 
+
+# while i<t:
+#     num1 = list(map(int, input().split()))
+#     i=i+1
+
 while i<t:
+    num1 = list(map(int, input().split()))
+    # print(num1)
     try:
-        num1 = int(input("enter total_workload :"))
-        num2 = int(input("enter no of servers :"))
-        avg = num1 // num2
+        avg = num1[0]// num1[1]
         print(avg)
     except ZeroDivisionError:
         print("Error")
-    i=i+1
-
 
     
